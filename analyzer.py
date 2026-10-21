@@ -1,6 +1,6 @@
 import os
 from langchain_openai import ChatOpenAI
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
 def analyze_honeypot_telemetry(api_key, telemetry_data):
